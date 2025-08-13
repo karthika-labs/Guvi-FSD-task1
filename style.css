@@ -1315,7 +1315,7 @@ display: grid;
     grid-template-rows: repeat(2,auto);
     grid-template-columns: 1fr ;
 
-    gap:8px;
+    gap:32px;
     /* margin: 0 auto;
     max-width: 1200px;
     min-height: 100vh; */
