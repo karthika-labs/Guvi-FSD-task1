@@ -1,4 +1,5 @@
-*{
+
+ *{
     margin:0;
     padding: 0;
 }
@@ -28,12 +29,12 @@
      display:grid;
     grid-template-columns:1fr ;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    max-width: 1200px;
+    /* min-height: 100vh;
+    max-width: 1200px; */
    
     padding: 50px 0px;
     background-color:#FEFCFB;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     gap: 80px;
 }
 .header{
@@ -48,8 +49,8 @@
     gap: 8px;
     position:fixed;
     top: 0;
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
     padding-bottom:50px;
     padding-top:2px;
 
@@ -87,8 +88,7 @@
 .navbar1 a:hover{
     transform :scale(1.05) ;
      color:#FA7336;
-    /* box-shadow: -5px 5px 30px -4px rgba(250,116,54,0.56);
-    background-color: transparent; */
+  
     
 }
 .navbar1 a  {
@@ -201,8 +201,8 @@ a.login:hover{
 
     padding-top: 50px;
     justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px;
+    margin: 0 auto; */
 
 
 }
@@ -307,8 +307,7 @@ a.login:hover{
 }
 .searchbar{
    
-    display: grid
-;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px;
     max-width: 1200px;
@@ -487,8 +486,8 @@ display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr ;
     gap:24px;
-    max-width: 1200px;
-    min-height: 100vh;
+    /* max-width: 1200px;
+    min-height: 100vh; */
     background-color: #f7f8fc;
     padding: 50px 0px;
    
@@ -711,10 +710,11 @@ display: grid;
     grid-template-rows:auto auto;
     grid-template-columns: 1fr ;
     padding: 50px 0px;
-    margin: 0 auto;
+    /* margin: 0 auto;
     max-width: 1200px;
-    min-height: 100vh;
+    min-height: 100vh; */
     background-color: #FEFcFB;
+    gap:32px;
 }
 .exclusive-deals-content{
     display: flex;
@@ -743,14 +743,15 @@ display: grid;
     font-size: 18px;;
 }
 .exclusive-deals-card{
-    display: grid;
+    /* display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(4,auto); */
     align-items: center;
     justify-content: center;
     gap: 26px;
-    margin: 0 auto;
-    
+    /* margin: 0 auto; */
+    display: flex;
+
     
 }
 .exclusive-deals-card .e-card1{
@@ -760,11 +761,13 @@ display: grid;
     border :2px solid #FEFCFB;
    
     border-radius: 3%;
+    flex-grow:1;
+    flex-basis: 20%;
      
 
 }
 .exclusive-deals-card .e-card2{
-    display: flex;
+    /* display: flex; */
     background-color: #FEFCFB;
     filter: drop-shadow(1px 3px 8px #FEFCFB);
     box-shadow: 0px 0px 5px -2px rgb(0, 0, 0);
@@ -772,11 +775,12 @@ display: grid;
    flex-direction: column;
    
     border-radius: 3%;
-  
+   flex-grow:1;
+    flex-basis: 20%;
      
 }
 .exclusive-deals-card .e-card3{
-    display: flex;
+    /* display: flex; */
     background-color: #FEFCFB;
     filter: drop-shadow(1px 3px 8px #FEFCFB);
     box-shadow: 0px 0px 5px -2px rgb(0, 0, 0);
@@ -784,10 +788,12 @@ display: grid;
    flex-direction: column;
   
    border-radius: 3%;
+   flex-grow:1;
+    flex-basis: 20%;
      
 }
 .exclusive-deals-card .e-card4{
-    display: flex;
+    /* display: flex; */
     background-color: #FEFCFB;
     filter: drop-shadow(1px 3px 8px #FEFCFB);
     box-shadow: 0px 0px 5px -2px rgb(0, 0, 0);
@@ -795,6 +801,8 @@ display: grid;
    flex-direction: column;
   
    border-radius: 3%;
+   flex-grow:1;
+    flex-basis: 20%;
      
 }
 .exclusive-deals-card .e-card2 .e-card2-btn-class{ 
@@ -803,7 +811,7 @@ display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    padding: 120px 80px 120px 80px;
+    padding: 120px 80px;
     border-radius: 3%;
  
     
@@ -816,7 +824,7 @@ display: grid;
     border-radius:.3rem;
     width: max-content;
         box-shadow: 0px 0px 80px 60px rgba(13, 13, 13, 0.45);
-    padding: 10px 20px 10px 20px;
+    padding: 10px ;
     cursor: pointer;
     color:  #FEFCFB;
     transition: all 0.3s ease;
@@ -1109,9 +1117,9 @@ display: grid;
     grid-template-columns: 1fr ;
     padding: 50px 0px;
     
-    margin: 0 auto;
+    /* margin: 0 auto;
     max-width: 1200px;
-    min-height: 100vh;
+    min-height: 100vh; */
     background-color: #FEFcFB;
     ;
      gap:40px;
@@ -1158,16 +1166,16 @@ display: grid;
 }
 .vacation-image{
   position: relative;
-  left: 100px;;
+  left: 100px;
 }
 .arrow-vacation{
 
    
     display: flex;
     justify-self:end;
-     padding-right: 50px;
+     padding-right: 5px;
      position: relative;
-     top:50px;
+    bottom:20px
     
    
     
@@ -1306,11 +1314,11 @@ display: grid;
      display: grid;
     grid-template-rows: repeat(2,auto);
     grid-template-columns: 1fr ;
-    padding: 100px 0px;
+
     gap:8px;
-    margin: 0 auto;
+    /* margin: 0 auto;
     max-width: 1200px;
-    min-height: 100vh;
+    min-height: 100vh; */
     background-color: #FEFBFB;
     padding: 50px 0px;
 
@@ -1401,8 +1409,8 @@ display: grid;
     grid-template-columns: 2fr ;
   
     gap:48px;
-    max-width: 1200px;
-    min-height: 100vh;
+    /* max-width: 1200px;
+    min-height: 100vh; */
     padding: 50px 0px;
     background-color: #fefcfb;
     
@@ -1769,3 +1777,23 @@ input {
  .terms{
     justify-self: end;
  }
+
+/* --- FIXES FOR RESPONSIVE UI & HORIZONTAL SCROLL --- */
+
+html, body {
+  overflow-x: hidden;
+}
+
+.main-right {
+  left: 0 !important;
+  padding-left: 20px;
+}
+
+.exclusive-deals-card {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
